@@ -1,9 +1,14 @@
- p {
-  color: #660000;
-  font-family: Arial, Helvetica, sans-serif;
+p {
+  color: #0b0a12;
+  font-famicssly: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3 {
+h1 {
+  color: white;
+  font: 700 24px Arial, Helvetica, sans-serif;
+} 
+
+h2, h3 {
   color: #110909;
   font: 700 16px Georgia, 'Times New Roman', Times, sans-serif;
 }
@@ -13,69 +18,15 @@ a:visited { color: green; }
 a:hover { color: magenta; }
 a:active { color: blue; }
 
-p::first-line {
-      color: blue;
-      font-weight: bold;
-    }
-    p::first-letter {
-      font-size: large;
-      color: black;
-    }
-    p::before {
-      content: "💻";
-      color:#006633
-    }
-    p::after {
-      content: "✽";
-      color: red;
-    }
-
-#gallery img { 
-  border: 2px solid blue; 
-  margin: 10px;
-}
-        
-#gallery > img { 
-  box-shadow: 5px 5px 10px gray; 
+.header {
+  background-color: #075c18fe;
+  padding: 10px;
+  text-align: center;
 }
 
-#img2 + img { 
-  border: 3px dashed red; 
-} 
-
-#img2 ~ img { 
-  filter: grayscale(50%); 
+footer em, strong {
+  background-color: #222;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
 }
-
-#my-class { 
-  color: blue;
-  font-size: 18px;
-}
-
-#my-unique-id {
-  background-color: yellow;
-  border: 1px solid black;
-}
-
-p { 
-  color: black;
-}
-
-#gallery { 
-  color: green; 
-}
-
-blockquote { 
-  font-style: italic !important; 
-}
-
-.small-text {
-    font-size: 90%;
-}
-
-
-
-
-
-
-
